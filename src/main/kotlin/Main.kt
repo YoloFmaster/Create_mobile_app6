@@ -1,7 +1,7 @@
 fun main() {
     var continued = true
     do {
-        println("Первый шаг - Создать маршрут")
+        println("Первый шаг - Создать маршрут ")
         val route = Itinerary().creatingRoute()
         println("Маршрут поезда: ${route[0]} - ${route[1]}")
         println()
